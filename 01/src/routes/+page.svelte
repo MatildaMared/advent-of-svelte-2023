@@ -1,6 +1,8 @@
 <script>
+	import CookieCounter from "./CookieCounter.svelte";
+
 	export let data;
-	
+
 	console.log(data.data);
 </script>
 
@@ -11,6 +13,7 @@
 
 <section>
  <h1>Hello</h1>
+ <CookieCounter />
 </section>
 
 <style>
